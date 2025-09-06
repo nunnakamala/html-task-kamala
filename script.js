@@ -3,17 +3,17 @@ const slides = [
   {
     title: "Data Predictions Minutes Without <span>Writing Code.</span>",
     text: "Prove the ROI of social media, plan more engaging content...",
-    img: "/rightsideimg.png",
+    img: "rightsideimg.png",
   },
   {
     title: "Accelerate Your Business with <span>Smart Insights.</span>",
     text: "Turn raw data into actionable insights with real-time analytics.",
-    img: "/rightsideimg.png",
+    img: "rightsideimg.png",
   },
   {
     title: "Simplify Workflows Using <span>Automation.</span>",
     text: "Automate repetitive tasks and focus more on innovation.",
-    img: "/rightsideimg.png",
+    img: "rightsideimg.png",
   },
 ];
 
@@ -76,3 +76,4 @@ document.querySelectorAll(".accordion-item").forEach((item) => {
     btn.textContent = item.classList.contains("open") ? "^" : "˅";
   });
 });
+
